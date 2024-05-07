@@ -1,0 +1,62 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+input:focus,button:focus{ outline: 0}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 23px;
+    padding: 10px 330px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    background:linear-gradient(to right, #10ad10, #20f170);
+}
+#texting-wrap{
+    max-width: 800px;
+    margin: 30px auto;
+    border: 2px solid #029d6c;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, aquamarine, aqua);
+
+}
+
+#texting-window{
+    height: 400px;
+    overflow: auto;
+}
+#output p{
+    font-size: 15px;
+    padding: 12px;
+}
+
+#output p:nth-child(even){
+    background-color: rgb(40, 241, 174);
+}
+
+#feedback p{
+    font-size: 13px;
+    padding: 12px;
+}
+
+#output strong{
+    color: #007f3d;
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid #82ffd7;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    background:linear-gradient(to right, #10ad10, #20f170);    color: #fff;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+}
